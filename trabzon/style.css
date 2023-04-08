@@ -1,0 +1,268 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+body{
+    overflow-x: hidden;
+}
+
+.main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0px auto;
+    padding: 0px 20px;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.769),rgba(255, 255, 255, 0.769)),url(Fotoğraflar/ArkaPlan.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo p{
+    width: 155px;
+    height: 55px;
+    background: transparent;
+    font-weight: 600;
+    color: #ffffff;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    cursor: pointer;
+    float: left;
+}
+
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list li a{
+    display: inline-block;
+    color: #c1c1c1;
+    margin-left: 65px;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+nav .nav-list li:not(:last-child) a:hover{
+    color: #ffffff;
+    transition: .4s;
+}
+
+.container{
+    padding-top: 190px;
+}
+.container .hero-text{
+    margin-bottom: 40px;
+    padding-left: 1000px;
+}
+.container .hero-text h1{
+    color: white;
+    font-size: 47px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin:0px 0px;
+    padding-left: 70px;
+}   
+
+.container .hero-text p{
+    width: 440px;
+    max-width: 100%;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.5;
+    margin-bottom: 2px;
+    color: white;
+}
+
+
+/* Hakkında */
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+    background-size: cover;
+    height: 100vh;
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-weight: 550;
+}
+
+.about-text p::selection {
+    color: #ac2424;
+}
+
+span {
+    color: #ac2424;
+}
+
+.about-text p {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    line-height: 28px;
+}
+
+
+
+.map {
+    background-color: white;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title {
+    color: black;
+    font-size: 55px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.pra p {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 400px;
+    margin-bottom: 05px;
+    line-height: 28px;
+}
+.pram p {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-left: 510px;
+    margin-bottom: 05px;
+    line-height: 28px;
+}
+.pra p::selection {
+    color: #ac2424;
+}
+
+
+
+button {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    margin-left: 590px;
+    background: none;
+    
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+  }
+  
+  button:focus,
+  button:hover {
+    color: #000000;
+  }
+  
+  button:focus:after,
+  button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 50%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #430a5b;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+  }
+
+ iframe{
+    margin-left: 450px;
+    margin-top: 250px;
+ }
+
+ .fotog{
+    height: 600px;
+    width: 600px;
+   
+    
+ }
+ .imagee{
+    position: relative;
+    height: 200px;
+    width: 400px;
+    margin-left: 555px;
+ }
+ .imagee4{
+    position: relative;
+    height: 200px;
+    width: 400px;margin-left: 555px;
+ }
+ .imagee3{
+    position: relative;
+    height: 200px;
+    width: 400px;margin-left: 555px;
+    
+ }
+ .imagee2{
+    position: relative;
+    height: 200px;
+    width: 400px;margin-left: 555px;
+    
+ }
